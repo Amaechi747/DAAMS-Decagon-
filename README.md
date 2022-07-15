@@ -56,16 +56,3 @@ admin.dashboard.daams.com
 FRONTEND TECHNOLOGIES: React and Typescript
 
 BACKEND TECHNOLOGIES: Typescript, Node.js, Express, MongoDB
-
- 
-GROUP MEMBERS
-
-- Ibrahim Kareem
-
-- Gavin Emuveyan
-
-- Benjamin Effiong
-
-- Ugwuanyi Ekene
-
-- Amaechi Moses
