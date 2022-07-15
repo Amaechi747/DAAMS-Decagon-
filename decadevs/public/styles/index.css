@@ -1,0 +1,34 @@
+h1{
+    font-variant: all-petite-caps;
+    font-family: monospace;
+}
+
+input{
+    display: block;
+    margin-block: 1.5%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
+form{
+   text-align: center;
+   margin-top: 2%
+}
+#signup-link{
+    font-variant: all-small-caps;
+    padding: 1%;
+    color: rgba(0, 80, 0, 0.881);
+  }
+  .stacks{
+    display: inline-block;
+    margin: 2%
+  }
+  #stackSelector{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position:  revert
+  }
+  #stackDiv{
+    padding: 2%
+  }

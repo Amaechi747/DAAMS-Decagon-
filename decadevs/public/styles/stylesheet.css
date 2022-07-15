@@ -1,0 +1,29 @@
+#logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  animation: rotate 10s linear infinite;
+  animation-delay: 0;
+  animation-direction: normal;
+  margin-top: 1.5%
+}
+
+@keyframes rotate{
+0% {
+-webkit-transform:rotate(0deg);
+transform:rotate(0deg)
+}
+to {
+-webkit-transform:rotate(1turn);
+transform:rotate(1turn)
+}
+}
+body{
+  background-color: aliceblue;
+}
+#loader{
+  border: 3px solid green;
+  width: 0%;
+  position: fixed;
+  margin-top: -1.5%
+}

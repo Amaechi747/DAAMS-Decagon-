@@ -1,0 +1,56 @@
+#logo-header{
+    display: block;
+    margin: auto;
+    margin-top: 0.3%
+  }
+  .container{
+    display: flex
+  }
+  #greeting-div{
+    padding: 1.5%
+  }
+  #controls{
+    padding: 2%;
+    font-variant-caps:  all-petite-caps
+  }
+  #control-panel{
+    padding: 1%;
+  }
+  /* icons */
+  .fa-solid{
+    color: green;
+}
+#stack-name{
+  font-variant: all-petite-caps
+}
+/* each of the options */
+.control{
+  padding: 5%
+}
+#notification-header{
+  text-align: center;
+  font-variant: small-caps
+}
+
+#control-panel{
+  border-right: 3.5px solid rgba(21, 255, 0, 0.1);
+  height: 100%
+}
+#notifications{
+  border-left: 3.5px solid rgba(21, 255, 0, 0.1);
+}
+
+.control{
+  display: block;
+  text-align: right
+}
+#profile-picture{
+  width: 100px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-position: center;
+  background-size: cover;
+  height: 100px;
+}

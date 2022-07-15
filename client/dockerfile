@@ -1,0 +1,16 @@
+FROM node:16.15.0
+
+WORKDIR /src/App
+
+COPY ./package.json ./
+COPY ./yarn.lock ./
+
+RUN yarn install
+
+COPY . .
+
+COPY ./yarn.lock ./
+
+EXPOSE 3000
+
+CMD ["yarn", "start"]
